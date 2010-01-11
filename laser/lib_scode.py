@@ -146,7 +146,7 @@ if __name__ == "__main__" :
 		data += scode_header()
 		data += scode_set_x(x)
 		data += scode_set_y(y)
-		data += scode_move_to(2)
+		data += scode_move_to(0)
 		data += scode_delay(100)
 		data += scode_nop()
 		data += '\n'
