@@ -138,6 +138,7 @@ if __name__ == "__main__" :
 	data = scode_header()
 	data += scode_set_speed(1)
 	data += scode_nop()
+	data += '\n'
 	
 	for line in f:
 		entries = line.split()
